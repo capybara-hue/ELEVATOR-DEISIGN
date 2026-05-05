@@ -1,10 +1,8 @@
-# RTL Innovate Hackfest: Smart Elevator Controller[cite: 2]
-
+# RTL Innovate Hackfest: Smart Elevator Controller
 This repository contains the Verilog implementation of a 3-floor elevator controller designed by Team **VTX (Verilog Vortex)**.
 
 # Design Approach
 The system is built using a **Moore Finite State Machine (FSM)** to ensure stable, clock-synchronized transitions between floors.
-
 *   **States**: The design defines three primary states: S0 (Floor 0), S1 (Floor 1), and S2 (Floor 2).
 *   **Request Handling**: When the input `x` is high, the system advances to the next floor (Up Counter behavior).
 *   **Direction Control**: At the top floor (S2), a high input `x` triggers a transition back to the starting floor (Down Counter behavior).
