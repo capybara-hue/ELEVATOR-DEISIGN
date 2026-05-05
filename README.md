@@ -19,7 +19,3 @@ The provided testbench (`vtxc_tb.v`) simulates the system heartbeat via a clock 
 1.  **Reset Recovery**: Confirms the system returns to S0 upon reset.
 2.  **State Sequence**: Verifies the $S0 \rightarrow S1 \rightarrow S2$ transition path.
 3.  **Output Accuracy**: Ensures the output signal `y` triggers only when the designated floor is reached.
-
-#  Team VTX
-*   **Ananya Chaturvedi**
-*   **Srishti Prajapati**
